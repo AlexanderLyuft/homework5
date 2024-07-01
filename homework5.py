@@ -8,9 +8,9 @@ print(immutable_var)
 # кортежи в отличие от списков, являются не изменяемыми
 
 # №4
-mutable_list = (['book', 'notebook'], 'pen', 'diary')
+mutable_list = ['book', 'notebook', 'pen', 'diary']
 print(mutable_list)
-mutable_list[0][0] = 'pencil'
+mutable_list[0] = 'pencil'
 print(mutable_list)
 
 
